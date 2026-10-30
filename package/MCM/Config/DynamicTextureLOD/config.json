@@ -1,0 +1,41 @@
+{
+    "modName": "DynamicTextureLOD",
+    "displayName": "Dynamic Texture LOD",
+    "minMcmVersion": 1,
+    "content": [
+        {
+            "text": "Dynamic Texture LOD",
+            "type": "section"
+        },
+        {
+            "type": "spacer"
+        },
+        {
+            "id": "bEnabled:General",
+            "text": "Mod enabled",
+            "type": "switcher",
+            "help": "Turns texture management on or off in game. Off, the game handles every texture itself, as without the mod.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            }
+        },
+        {
+            "id": "bLowVramMode:General",
+            "text": "4/6 GB budget mode",
+            "type": "switcher",
+            "help": "For graphics cards with 4 to 6 GB. Keeps every texture at most 1024 pixels all the time, not only under VRAM pressure, so far less video memory is used and play is smoother. Textures can look visibly softer.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            }
+        },
+        {
+            "id": "bDevKeys:General",
+            "text": "Development keys",
+            "type": "switcher",
+            "help": "F11 switches the mod on or off, to compare with and without it.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            }
+        }
+    ]
+}
